@@ -1,0 +1,79 @@
+.masjid-header  .container{
+  background-color: #059041; 
+  color: #fff;
+  border-radius: 25px;
+  max-height: 15vh;
+}
+.masjid-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.search-box{
+  transform: translateY(40%);
+  outline: none;
+}
+.search-box input {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.masjid-locations-card .row{
+  row-gap: 30px;
+}
+.mosque-card {
+  width: 300px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+.mosque-card:hover {
+  transform: scale(1.03);
+}
+.card-img-top{
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+  
+}
+
+
+
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+
+
+
+.col-9{
+  height: 300px;
+}
+.col-9 img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.col-3{
+  height: 300px;
+  /* border: 2px solid red; */
+}
+.col-3 > div{
+  height: 45%;
+  position: relative;
+}
+.col-3  div img{
+  height: 100%;
+}
+.overlay-text{
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  position: absolute;
+  color: #fff;
+  background-color: rgba(44, 42, 42, 0.664);
+}

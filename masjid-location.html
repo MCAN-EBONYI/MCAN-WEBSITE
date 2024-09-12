@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">     
     
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/masjid.css">
     
 </head>
 <body>
@@ -49,14 +50,343 @@
 
     <!-- the main content section of the page -->
     <main>
-      <!-- first section  -->
-      <section id="blog-header" class="blog-header mt-4">
+      <!-- masjid head title section  -->
+      <section id="masjid-header" class="masjid-header mt-4">
         <div class="container py-3 ">
-            <h1 class="blog-title text-center">Masjid Locations</h1>
+            <h1 class="masjid-title text-center">Masjid Locations</h1>
             <div class="search-box">
               <input type="text" class="form-control" placeholder=" Search">
             </div>
         </div>
+      </section>
+
+      <!-- masjid card layout -->
+      <section class="masjid-locations-card my-4 py-3">
+        <div class="container ">
+          <h2 class="text-center py-3">Discover Mosques Near You</h2>
+          <div class="row justify-content-between ">
+            <!-- masjid Cards -->
+            <div class="col-md-4">
+              <div class="card mosque-card" data-bs-toggle="modal" data-bs-target="#mosqueModal1">
+                <img src="./files/masjid11.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Toyeeebu Central Mosque</h5>
+                  <p class="card-text"><i class="bi bi-geo-alt"></i> Plot 60, Asuju Estate, Ebonyi</p>
+                  <p><i class="bi bi-person"></i> 1903 Persons pray here</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4">
+              <div class="card mosque-card" data-bs-toggle="modal" data-bs-target="#mosqueModal2">
+                <img src="./files/masjid1.jfif" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Ebonyi Central Mosque</h5>
+                  <p class="card-text"><i class="bi bi-geo-alt"></i> Plot 60, Asuju Estate, Ebonyi</p>
+                  <p><i class="bi bi-person"></i> 1800 Persons pray here</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4">
+              <div class="card mosque-card" data-bs-toggle="modal" data-bs-target="#mosqueModal3">
+                <img src="./files/masjid10.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">RST Mosque Int'l</h5>
+                  <p class="card-text"><i class="bi bi-geo-alt"></i> Plot 60, Asuju Estate, Ebonyi</p>
+                  <p><i class="bi bi-person"></i> 1500 Persons pray here</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mosque-card" data-bs-toggle="modal" data-bs-target="#mosqueModal4">
+                <img src="./files/masjid2.jfif" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Toyeeebu Central Mosque</h5>
+                  <p class="card-text"><i class="bi bi-geo-alt"></i> Plot 60, Asuju Estate, Ebonyi</p>
+                  <p><i class="bi bi-person"></i> 1903 Persons pray here</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mosque-card" data-bs-toggle="modal" data-bs-target="#mosqueModal5">
+                <img src="./files/masjid9.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Toyeeebu Central Mosque</h5>
+                  <p class="card-text"><i class="bi bi-geo-alt"></i> Plot 60, Asuju Estate, Ebonyi</p>
+                  <p><i class="bi bi-person"></i> 1903 Persons pray here</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mosque-card" data-bs-toggle="modal" data-bs-target="#mosqueModal6">
+                <img src="./files/masjid4.jfif" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Toyeeebu Central Mosque</h5>
+                  <p class="card-text"><i class="bi bi-geo-alt"></i> Plot 60, Asuju Estate, Ebonyi</p>
+                  <p><i class="bi bi-person"></i> 1903 Persons pray here</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      
+      </section>
+
+      <!-- masjid Modal -->
+      <section class="masjid-location-modals my-3 py-3">
+        <!-- first masjid moadal -->
+         <div class="modal fade" id="mosqueModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg row justify-content-center">
+            <div class="col-lg-12 col-md-8">
+                <div class="card p-4 shadow-lg">
+                    <!-- Image section with multiple images -->
+                    <div class="row mb-4" >
+                        <div class="col-9">
+                            <img src="./files/masjid12.avif" class="img-fluid rounded" alt="Main Mosque Image" height="50">
+                        </div>
+                        <div class="col-3 ">
+                            <div class="row mb-4">
+                                <img src="./files/masjid10.avif" class="img-fluid rounded " alt="Small Image 1">
+                            </div>
+                            <div class="row">
+                                <img src="./files/masjid3.jfif" class="img-fluid rounded " alt="Small Image 2">
+                                <div class="overlay-text ">
+                                   <h2 class="text-center "> +5 </h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mosque Title and Overview -->
+                    <h4 class="text-success fw-bold">Toyeebu Central Mosque</h4>
+                    <p><i class="bi bi-geo-alt"></i> Plot 6b, Akuyi Estate, Ebonyi <span class="text-muted mx-2">|</span> 5 mins from your location <span class="text-muted mx-2">|</span> 1993 Prayers since opening</p>
+
+                    <!-- Overview section -->
+                    <h5 class="fw-bold">Overview</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt non eligendi dignissimos at id nisi ex quas, quo fuga reprehenderit, aliquid mollitia quod? Culpa, sequi. Quo nobis maiores debitis!  </p>
+
+                    <!-- Button section -->
+                    <div class="d-flex justify-content-between">
+                        <button class="btn btn-success">View on Map</button>
+                        <a href="#" class="btn btn-outline-success">Check Prayer Times</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- second masjid moadal -->
+        <div class="modal fade" id="mosqueModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg row justify-content-center">
+              <div class="col-lg-12 col-md-8">
+                  <div class="card p-4 shadow-lg">
+                      <!-- Image section with multiple images -->
+                      <div class="row mb-4" >
+                          <div class="col-9">
+                              <img src="./files/masjid11.avif" class="img-fluid rounded" alt="Main Mosque Image" height="50">
+                          </div>
+                          <div class="col-3 ">
+                              <div class="row mb-4">
+                                  <img src="./files/masjid10.avif" class="img-fluid rounded " alt="Small Image 1">
+                              </div>
+                              <div class="row">
+                                  <img src="./files/masjid3.jfif" class="img-fluid rounded " alt="Small Image 2">
+                                  <div class="overlay-text ">
+                                      <h2 class="text-center "> +5 </h2> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <!-- Mosque Title and Overview -->
+                      <h4 class="text-success fw-bold">Toyeebu Central Mosque</h4>
+                      <p><i class="bi bi-geo-alt"></i> Plot 6b, Akuyi Estate, Ebonyi <span class="text-muted mx-2">|</span> 5 mins from your location <span class="text-muted mx-2">|</span> 1993 Prayers since opening</p>
+  
+                      <!-- Overview section -->
+                      <h5 class="fw-bold">Overview</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt non eligendi dignissimos at id nisi ex quas, quo fuga reprehenderit, aliquid mollitia quod? Culpa, sequi. Quo nobis maiores debitis!</p>
+  
+                      <!-- Button section -->
+                      <div class="d-flex justify-content-between">
+                          <button class="btn btn-success">View on Map</button>
+                          <a href="#" class="btn btn-outline-success">Check Prayer Times</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+        <!-- third masjid moadal -->
+        <div class="modal fade" id="mosqueModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg row justify-content-center">
+              <div class="col-lg-12 col-md-8">
+                  <div class="card p-4 shadow-lg">
+                      <!-- Image section with multiple images -->
+                      <div class="row mb-4" >
+                          <div class="col-9">
+                              <img src="./files/masjid1.jfif" class="img-fluid rounded" alt="Main Mosque Image" height="50">
+                          </div>
+                          <div class="col-3 ">
+                              <div class="row mb-4">
+                                  <img src="./files/masjid10.avif" class="img-fluid rounded " alt="Small Image 1">
+                              </div>
+                              <div class="row">
+                                  <img src="./files/masjid3.jfif" class="img-fluid rounded " alt="Small Image 2">
+                                  <div class="overlay-text ">
+                                     <h2 class="text-center "> +5 </h2> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <!-- Mosque Title and Overview -->
+                      <h4 class="text-success fw-bold">Toyeebu Central Mosque</h4>
+                      <p><i class="bi bi-geo-alt"></i> Plot 6b, Akuyi Estate, Ebonyi <span class="text-muted mx-2">|</span> 5 mins from your location <span class="text-muted mx-2">|</span> 1993 Prayers since opening</p>
+  
+                      <!-- Overview section -->
+                      <h5 class="fw-bold">Overview</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt non eligendi dignissimos at id nisi ex quas, quo fuga reprehenderit, aliquid mollitia quod? Culpa, sequi. Quo nobis maiores debitis!</p>
+  
+                      <!-- Button section -->
+                      <div class="d-flex justify-content-between">
+                          <button class="btn btn-success">View on Map</button>
+                          <a href="#" class="btn btn-outline-success">Check Prayer Times</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+        <!-- forth masjid moadal -->
+        <div class="modal fade" id="mosqueModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg row justify-content-center">
+              <div class="col-lg-12 col-md-8">
+                  <div class="card p-4 shadow-lg">
+                      <!-- Image section with multiple images -->
+                      <div class="row mb-4" >
+                          <div class="col-9">
+                              <img src="./files/masjid3.jfif" class="img-fluid rounded" alt="Main Mosque Image" height="50">
+                          </div>
+                          <div class="col-3 ">
+                              <div class="row mb-4">
+                                  <img src="./files/masjid10.avif" class="img-fluid rounded " alt="Small Image 1">
+                              </div>
+                              <div class="row">
+                                  <img src="./files/masjid3.jfif" class="img-fluid rounded " alt="Small Image 2">
+                                  <div class="overlay-text ">
+                                     <h2 class="text-center "> +5 </h2> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <!-- Mosque Title and Overview -->
+                      <h4 class="text-success fw-bold">Toyeebu Central Mosque</h4>
+                      <p><i class="bi bi-geo-alt"></i> Plot 6b, Akuyi Estate, Ebonyi <span class="text-muted mx-2">|</span> 5 mins from your location <span class="text-muted mx-2">|</span> 1993 Prayers since opening</p>
+  
+                      <!-- Overview section -->
+                      <h5 class="fw-bold">Overview</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt non eligendi dignissimos at id nisi ex quas, quo fuga reprehenderit, aliquid mollitia quod? Culpa, sequi. Quo nobis maiores debitis!</p>
+  
+                      <!-- Button section -->
+                      <div class="d-flex justify-content-between">
+                          <button class="btn btn-success">View on Map</button>
+                          <a href="#" class="btn btn-outline-success">Check Prayer Times</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+        <!-- fifth masjid moadal -->
+        <div class="modal fade" id="mosqueModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg row justify-content-center">
+              <div class="col-lg-12 col-md-8">
+                  <div class="card p-4 shadow-lg">
+                      <!-- Image section with multiple images -->
+                      <div class="row mb-4" >
+                          <div class="col-9">
+                              <img src="./files/masjid4.jfif" class="img-fluid rounded" alt="Main Mosque Image" height="50">
+                          </div>
+                          <div class="col-3 ">
+                              <div class="row mb-4">
+                                  <img src="./files/masjid10.avif" class="img-fluid rounded " alt="Small Image 1">
+                              </div>
+                              <div class="row">
+                                  <img src="./files/masjid3.jfif" class="img-fluid rounded " alt="Small Image 2">
+                                  <div class="overlay-text ">
+                                     <h2 class="text-center "> +5 </h2> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <!-- Mosque Title and Overview -->
+                      <h4 class="text-success fw-bold">Toyeebu Central Mosque</h4>
+                      <p><i class="bi bi-geo-alt"></i> Plot 6b, Akuyi Estate, Ebonyi <span class="text-muted mx-2">|</span> 5 mins from your location <span class="text-muted mx-2">|</span> 1993 Prayers since opening</p>
+  
+                      <!-- Overview section -->
+                      <h5 class="fw-bold">Overview</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt non eligendi dignissimos at id nisi ex quas, quo fuga reprehenderit, aliquid mollitia quod? Culpa, sequi. Quo nobis maiores debitis!</p>
+  
+                      <!-- Button section -->
+                      <div class="d-flex justify-content-between">
+                          <button class="btn btn-success">View on Map</button>
+                          <a href="#" class="btn btn-outline-success">Check Prayer Times</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+        <!-- sixth masjid moadal -->
+        <div class="modal fade" id="mosqueModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg row justify-content-center">
+              <div class="col-lg-12 col-md-8">
+                  <div class="card p-4 shadow-lg">
+                      <!-- Image section with multiple images -->
+                      <div class="row mb-4" >
+                          <div class="col-9">
+                              <img src="./files/masjid5.jfif" class="img-fluid rounded" alt="Main Mosque Image" height="50">
+                          </div>
+                          <div class="col-3 ">
+                              <div class="row mb-4">
+                                  <img src="./files/masjid10.avif" class="img-fluid rounded " alt="Small Image 1">
+                              </div>
+                              <div class="row">
+                                  <img src="./files/masjid3.jfif" class="img-fluid rounded " alt="Small Image 2">
+                                  <div class="overlay-text ">
+                                     <h2 class="text-center "> +5 </h2> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <!-- Mosque Title and Overview -->
+                      <h4 class="text-success fw-bold">Toyeebu Central Mosque</h4>
+                      <p><i class="bi bi-geo-alt"></i> Plot 6b, Akuyi Estate, Ebonyi <span class="text-muted mx-2">|</span> 5 mins from your location <span class="text-muted mx-2">|</span> 1993 Prayers since opening</p>
+  
+                      <!-- Overview section -->
+                      <h5 class="fw-bold">Overview</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt non eligendi dignissimos at id nisi ex quas, quo fuga reprehenderit, aliquid mollitia quod? Culpa, sequi. Quo nobis maiores debitis!</p>
+  
+                      <!-- Button section -->
+                      <div class="d-flex justify-content-between">
+                          <button class="btn btn-success">View on Map</button>
+                          <a href="#" class="btn btn-outline-success">Check Prayer Times</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+
       </section>
 
        
@@ -64,97 +394,97 @@
 
     <!-- footer section -->
     <footer class="footer-section">
-        <!-- firt section of the footer -->
-       <section class="footer-one">
-        <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-4 text-start">
-                <img src="./files/mcan_logo.png" alt="Logo" class="footer-one-logo img-fluid">
-              </div>
-              <div class="col-md-4">
-                <h5 class="footer-one-title">Subscribe our Newsletter</h5>
-                <p class="footer-one-subtitle">Subscribe to get the latest news about MCAN</p>
-              </div>
-              <div class="col-md-4">
-                <form class="subscribe-form d-flex">
-                  <input type="email" class="form-input" placeholder="Your email address">
-                  <button type="submit" class="btn btn-success">Subscribe</button>
-                </form>
-              </div>
+      <!-- firt section of the footer -->
+     <section class="footer-one">
+      <div class="container">
+          <div class="row align-items-center d-flex">
+            <div class="col-4">
+              <img src="./files/mcan_logo.png" alt="Logo" class="footer-one-logo img-fluid">
             </div>
-          </div>
-       </section>
-
-       <!-- second section footer -->
-       <section class="footer-two">
-        <div class="container">
-          <div class="footer-content d-flex justify-content-between">
-            
-            <!-- About MCAN -->
-            <div class="footer-column">
-              <h4>About MCAN</h4>
-              <p>MCAN Ebonyi empowers Muslim Corps Members serving in Ebonyi State. We connect you with a supportive network, fostering your personal and professional growth.</p>
-              <p><strong>Phone:</strong> (+234) 708-5720-019</p>
-              <p><strong>Email:</strong> info@gmail.com</p>
-              <div class="social-links">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-pinterest"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-              </div>
+            <div class="col-4">
+              <h5 class="footer-one-title">Subscribe our Newsletter</h5>
+              <p class="footer-one-subtitle">Subscribe to get the latest news about MCAN</p>
             </div>
-            
-            <!-- Quick Links -->
-            <div class="footer-column">
-              <h4>Quick Links</h4>
-              <ul>
-                <li><a href="./index.html">Homepage</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./index.html#dawaah-blog-sect">Dawa'ah</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./about.html#excos-sect">State Executives</a></li>
-                <li><a href="./about.html#excos-sect">LGA Amirs</a></li>
-              </ul>
+            <div class="col-4">
+              <form class="subscribe-form d-flex">
+                <input type="email" class="form-input" placeholder="Your email address">
+                <button type="submit" class="btn btn-success">Subscribe</button>
+              </form>
             </div>
-            
-            <!-- Helps -->
-            <div class="footer-column">
-              <h4>Helps</h4>
-              <ul>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./contact.html">FAQs</a></li>
-                <li><a href="./contact.html">Our Location</a></li>
-                <li><a href="./contact.html">Help!</a></li>
-              </ul>
-            </div>
-            
-            <!-- Our Location -->
-            <div class="footer-column">
-                <h4>Our Location</h4>
-                <a href="https://www.google.com/maps/place/MCAN/@6.2933347,8.0962426,15z" target="_blank" style="display:block;">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.774535217882!2d8.09624261018059!3d6.293334693669427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105ca10700131f07%3A0x1e48ac7fef183dcd!2sMCAN!5e0!3m2!1sen!2sng!4v1723801110707!5m2!1sen!2sng&z=15" 
-                        width="400" 
-                        height="200" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </a>
-            
-            </div>
-            
-          </div>
-          
-          <!-- Footer Bottom -->
-          <div class="footer-bottom text-center ">
-            <p>MCAN Ebonyi &copy; 2024. All Rights Reserved</p>
           </div>
         </div>
-      </section>
-      
-    </footer>
+     </section>
+
+     <!-- second section footer -->
+     <section class="footer-two">
+      <div class="container">
+        <div class="footer-content  d-flex justify-content-between">
+          
+          <!-- About MCAN -->
+          <div class="footer-column">
+            <h4> <strong> About MCAN </strong> </h4>
+            <p>MCAN Ebonyi empowers Muslim Corps Members serving in Ebonyi State. We connect you with a supportive network, fostering your personal and professional growth.</p>
+            <p><strong>Phone:</strong> (+234) 708-5720-019</p>
+            <p><strong>Email:</strong> info@gmail.com</p>
+            <div class="social-links mb-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-pinterest"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          
+          <!-- Quick Links -->
+          <div class="footer-column">
+            <h4> <strong> Quick Links </strong> </h4>
+            <ul>
+              <li><a href="./index.html">Homepage</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./index.html#dawaah-blog-sect">Dawa'ah</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./about.html#excos-sect">State Executives</a></li>
+              <li><a href="./about.html#excos-sect">LGA Amirs</a></li>
+            </ul>
+          </div>
+          
+          <!-- Helps -->
+          <div class="footer-column">
+            <h4> <strong> Helps </strong> </h4>
+            <ul>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./contact.html">FAQs</a></li>
+              <li><a href="./contact.html">Our Location</a></li>
+              <li><a href="./contact.html">Help!</a></li>
+            </ul>
+          </div>
+          
+          <!-- Our Location -->
+          <div class="footer-column">
+              <h4> <strong> Our Location </strong> </h4>
+              <a href="https://www.google.com/maps/place/MCAN/@6.2933347,8.0962426,15z" target="_blank" style="display:block;">
+                  <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.774535217882!2d8.09624261018059!3d6.293334693669427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105ca10700131f07%3A0x1e48ac7fef183dcd!2sMCAN!5e0!3m2!1sen!2sng!4v1723801110707!5m2!1sen!2sng&z=15" 
+                      width="400" 
+                      height="200" 
+                      style="border:0;" 
+                      allowfullscreen="" 
+                      loading="lazy" 
+                      referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+              </a>
+          
+          </div>
+          
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom text-center ">
+          <p>MCAN Ebonyi &copy; 2024. All Rights Reserved</p>
+        </div>
+      </div>
+    </section>
+    
+  </footer>
       
     
     <!-- javascript cdn and local  -->
