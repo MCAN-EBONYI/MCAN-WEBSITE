@@ -8,14 +8,17 @@ document.getElementById("contactForm").addEventListener("submit", function (even
   const phone = document.getElementById("phone").value;
   const message = document.getElementById("message").value;
 
-  // Here, you can add your logic to send the form data to a backend server
-  alert(`Form Submitted Successfully with for details below :
-  ${firstName}
-  ${lastName}
-  ${email}
-  ${phone}
-  ${message}
+  const output = document.getElementById("formDetails");
 
-  
-  `);
+
+  output.innerHTML = `
+  <h3> Form Submitted Successfully with the details below : </h3>
+  First Name: ${firstName} <br/>
+  Last Name: ${lastName} <br>
+  Email: ${email}  <br>
+  Phone: ${phone} <br>
+  Message: ${message}
+
+  `
+
 });

@@ -92,3 +92,14 @@
 }
 
 
+@media only screen and (max-width: 767px){
+  .contact-card{
+    width: 90%;
+  }
+  .contact-card:nth-child(even){
+    transform: translateY(0);
+  }
+  .contact-card:nth-child(odd){
+    transform: translateY(0);
+  }
+}

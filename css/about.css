@@ -31,10 +31,9 @@
 	filter: grayscale(1);
 }
 .about-stats {
-	height: 15vh;
+	align-items: center;
 	min-height: 15vh;
 	background-color: #FFFADB;
-	border-radius: 20px;
 }
 .stat-item h2 {
   font-size: 1.5rem;
@@ -68,7 +67,6 @@
 .vision-sect,
 .mission-sect {
 	min-height: 30vh;
-	/* border: 2px solid red; */
 }
 .vision-sect .vision-text-sect h4,
 .mission-sect .mission-text-sect h4{
@@ -98,7 +96,6 @@
 /* executive section */
 .excos-sect{
 	background-color: #F3FFF8;
-	border-bottom: 3px solid var(--primar-color);
 }
 .excos-sect h2{
 	color: var(--Head-color);
@@ -130,4 +127,9 @@
 .executive-title {
 	font-size: 14px;
 	color: var(--smText-color);
+}
+
+
+@media only screen and (max-width: 767px){
+	
 }

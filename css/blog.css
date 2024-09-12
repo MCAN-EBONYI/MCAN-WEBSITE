@@ -20,7 +20,7 @@
 .post-tags .tag-nav-link {
   text-decoration: none;
   color: #7D7D7D;
-  font-weight: 1rem;
+  font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 20px;
@@ -45,6 +45,9 @@
 .la-card-tag{
   font-size: 0.8rem;
   font-weight: 550;
+}
+.la-card-body > a{
+  text-decoration: none;
 }
 .la-card-title {
   font-size: 2.5rem;
@@ -95,6 +98,9 @@
   width: 40px;
   height: 40px;
 }
+.other-card-title{
+  font-size: 1.2rem;
+}
 
 
 
@@ -128,4 +134,68 @@
 
 .related-post-sect > .container > h5{
   color: #0B4F28;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+  .post-tags .tag-nav-link {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+  .la-card .img-fluid {
+    width: 100%;
+    height: 250px;
+    border-radius: 30px;
+    padding: 0 10px;
+  }
+  .la-card-body{
+    padding: 0 5px;
+  }
+  .la-card-tag{
+    padding: 0 0 0 5%;
+  }
+  .la-card-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .other-articles-sect > h3 {
+    margin-bottom: 1.6rem !important;
+  }
+  .col-md-4 > .other-card{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .other-card-body p{
+    font-size: .95rem;
+  }
+  .other-card > img {
+    height: 200px;
+  }
+
+
+
+
+  /* post page */
+  .back-btn a {
+    font-size: .8rem;
+    font-weight: 600;
+  }
+  .blog-content-img img {
+    height: 250px;
+  }
+  .blog-post-content h2 {
+    font-size: 1.5rem;
+  }
+  .blog-post-content p {
+    line-height: 1.8;
+    font-size: 0.95rem;
+    padding: 0 5px;
+  }
+
 }

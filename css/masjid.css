@@ -17,6 +17,9 @@
   margin: 0 auto;
   border-radius: 20px;
 }
+.masjid-locations-card h2{
+color: #0B4F28;
+}
 .masjid-locations-card .row{
   row-gap: 30px;
 }
@@ -42,7 +45,6 @@
   border-radius: 10px;
   padding: 20px;
 }
-
 .modal-title {
   font-weight: bold;
 }
@@ -76,4 +78,36 @@
   position: absolute;
   color: #fff;
   background-color: rgba(44, 42, 42, 0.664);
+}
+
+
+
+
+.daily-payer-section .display-4{
+  font-size: 5rem;
+  font-weight: 0;
+  outline: 0;
+  border: 0;
+}
+.daily-payer-section h5, 
+.daily-payer-section > h2{
+  color: #0B4F28;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+  .mosque-card {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .mosque-card:hover {
+    transform: scale(1.01);
+  }
+  
+
 }
